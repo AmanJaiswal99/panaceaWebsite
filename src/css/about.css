@@ -1,0 +1,115 @@
+
+
+.about{
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+  
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .about{
+      display: flex;
+     
+      flex-direction: column;
+    }
+    .tot{
+       
+        padding-bottom: 40px;
+    }
+    .imgg, .img,.img4{
+        height: 0;
+        margin-top: 0px;
+    }
+
+    .about_subtext{
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+    .about{
+        align-items: center;
+    }
+
+    .who_wrap{
+        display: flex;
+        justify-content: center;
+    }
+
+   
+    
+    }
+
+.who{
+    color:white;
+    text-align: left;
+    font-size: 2.5em;
+    
+}
+.about_heading{
+    text-shadow: 1px 1px 2px #000000;
+    
+    margin-top: 20px;
+   margin-left: 20px;
+   color: whitesmoke;
+  margin-right: 10px;
+  flex-direction: column;
+  justify-content: center;
+ align-items: center;
+  width: 50vw;
+}
+.about_text{
+    flex: 0.9;
+    
+}
+
+.about_subtext{
+    font-size: 1.2rem;
+   color: rgba(255, 250, 250, 0.479);
+   font-weight: 300;
+    font-family: sans-serif;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.about_img{
+    display: flex;
+   
+}
+
+.about_img1 > img, .about_img2 > img{
+    object-fit: contain;
+     max-height:150px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.faq_button{
+    background-color: #051c5c;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 4px 10px;
+}
+
+
+
+.tot{
+    background-color: rgb(0, 0, 0);
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+

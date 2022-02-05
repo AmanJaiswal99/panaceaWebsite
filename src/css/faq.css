@@ -1,0 +1,77 @@
+.faq{
+    margin: 60px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 15px 15px 0px rgb(0,0,0,0.2), 0px -15px 15px 0px  rgb(0,0,0,0.2);
+
+     color: white;
+    overflow-y: scroll;
+    padding: 20px;
+    height: 80vh;
+    z-index: 0;
+    overflow-x: hidden;
+}
+
+
+.faq::-webkit-scrollbar{
+    background-color:rgb(49, 148, 179);
+    visibility: hidden;
+}
+
+.faq::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(#26678d,#051c5c);
+    
+}
+.faq_heading{
+    text-align: center;
+    
+    background: -webkit-linear-gradient(rgb(255, 4, 4), rgb(255, 0, 0),rgb(255, 145, 0), rgb(255, 238, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.ans{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(221, 221, 221);
+}
+
+.qna{
+    margin-bottom: 50px;
+}
+.ques{
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: rgb(236, 236, 236);
+    
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .faq{
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+
+   
+    .faq_heading{
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: 20px;
+       
+    }
+
+
+  }
+
+  .faq_section{
+      background-color: rgb(0, 0, 0);
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .faq::-webkit-scrollbar{
+    
+}

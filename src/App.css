@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar{
+  background-color: black;
+   width: 13px;
+  
+   
+}
+*::-webkit-scrollbar-thumb{
+  background-color: whitesmoke;
+  border:  1px solid rgb(0, 0, 0);
+   border-radius: 20px;
+ 
+ 
+}
+
+body{
+  /* background-color: rgb(49, 148, 179); */
+  /* background-color: orange; */
+  background-color: white;
+}
+
+/* autofill css */
+/* input:-webkit-autofill{
+ 
+} */
+

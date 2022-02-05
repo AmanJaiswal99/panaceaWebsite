@@ -1,0 +1,134 @@
+ .contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+.contact_heading{
+    margin-bottom: 50px;
+}
+
+#text{
+ 
+    font-size: 1.4rem;
+    height: 60px;
+    resize: none;
+}
+
+
+.btn:hover{
+    background-color: rgb(16, 36, 75);
+    color: white;
+}
+
+.form-control {
+	border-radius: 0;
+	border-color: rgb(0, 0, 0,0.7);
+   	border-width: 0 0 5px 0;
+   	border-style: none none solid none;
+       box-shadow: none;
+       width: 30vw;
+       margin-bottom: 40px;
+       outline: none;
+       font-size: 1rem;
+       background-color: inherit ;
+    border-radius: 5px;
+    overflow-y: hidden;
+
+}
+
+.form-control::placeholder{
+color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 800px) {
+    .form-control{
+        width: 75vw;
+    }
+
+    .contact{
+        padding-right: 20px;
+    }
+    }
+.form-control:focus {
+	box-shadow: none;
+    border-color: #ffffff;
+    
+}
+
+
+.js-hide-label {
+	opacity: 0; 	
+}
+.js-unhighlight-label {
+    color: rgb(255, 255, 255) ;
+    
+}
+
+.btn-start-order {
+	background: 0 0 #0f0f0f;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: inherit;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border:1px solid #000000;
+    color: #000000;
+    background-color: white;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+     background-color: rgb(126, 195, 216);
+    height: 100vh;
+}
+
+.contact_logo{
+    display: flex;
+    align-items: center;
+    background-color:rgb(126, 195, 216);
+}
+
+.drafticon{
+    transform: scale(15);
+    color: rgb(0, 0, 0);
+    
+ 
+}
+
+@media screen and (max-width: 800px) {
+   
+    .contact_form{
+        flex: 1;
+        margin-right: 10px;
+    }
+    .contact_logo{
+        visibility: hidden;
+
+    }
+    .drafticon{
+        transform: scale(0);
+    }
+  }
+
+

@@ -1,0 +1,50 @@
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/Banner.jpg');
+    background-size: cover ;
+  
+}
+
+
+.banner_heading{
+    font-size: 15vw;
+    color: #000000;
+     
+   
+  text-shadow: 2px 2px 4px #e0970e;
+ 
+  
+}
+
+@media screen and (max-width: 800px) {
+  .banner_heading{
+      font-size: 20vw;
+  }
+  
+  
+    
+    }
+
+
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.leFlyInBottom span { animation-name: leFlyInBottom }
+@keyframes leFlyInBottom {
+    0% {
+        transform: translate(0px, 80px);
+        opacity: 0
+    }
+    50% {
+        transform: translate(10px, -50px);
+        animation-timing-function: ease-in-out
+    }
+}
